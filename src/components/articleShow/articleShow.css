@@ -1,0 +1,44 @@
+.articleShow {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.articleShow .articleLeft {
+  float: left;
+  width: 700px;
+  background-color: #ffffff;
+}
+.articleShow .articleLeft .showTitle {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #F2F2F2;
+  padding: 0 10px;
+  font-size: 14px;
+}
+.articleShow .articleLeft .showTitle img {
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+.articleShow .articleLeft .title {
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+.articleShow .articleLeft .articleContent {
+  margin-top: 50px;
+}
+.articleShow .articleRight {
+  margin-left: 40px;
+  float: left;
+  width: 260px;
+  background-color: #F2F2F2;
+}

@@ -1,0 +1,60 @@
+.my-clothes {
+  width: 100%;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+.my-clothes .clothes-header {
+  height: 30px;
+  background-color: gray;
+  padding: 0 10px;
+}
+.my-clothes .clothes-header span {
+  float: right;
+  display: inline-block;
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assets/icon/delete.png");
+  background-size: 100% 100%;
+}
+.my-clothes .clothes-content {
+  width: 100%;
+  height: 120px;
+}
+.my-clothes .clothes-content ul {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.my-clothes .clothes-content ul li {
+  width: 100px;
+  height: 100px;
+  float: left;
+  position: relative;
+  border: 2px solid gray;
+}
+.my-clothes .clothes-content ul li img {
+  width: 100%;
+  height: 100%;
+}
+.my-clothes .clothes-content ul li span {
+  position: absolute;
+  display: inline-block;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: rgba(242, 242, 242, 0.3);
+}
+.my-clothes .clothes-content ul li:hover {
+  border: 2px solid #42b983;
+}

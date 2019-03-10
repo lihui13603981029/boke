@@ -1,0 +1,30 @@
+.userShow {
+  width: 260px;
+  height: 240px;
+  overflow: hidden;
+  background-color: white;
+}
+.userShow .image {
+  margin-top: 60px;
+  padding-left: 100px;
+}
+.userShow .image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+}
+.userShow ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.userShow ul li {
+  float: left;
+  height: 60px;
+}
+.userShow ul li span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  height: 20px;
+}

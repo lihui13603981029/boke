@@ -1,0 +1,80 @@
+.myApp {
+  margin: 60px 0;
+}
+.myApp .tel-content {
+  width: 1000px;
+  margin: 0 auto;
+}
+.myApp .tel-content .left-content {
+  width: 700px;
+  float: left;
+}
+.myApp .tel-content .left-content .content-header {
+  height: 50px;
+  background-color: #ffffff;
+}
+.myApp .tel-content .left-content .content-header li {
+  display: inline-block;
+  height: 50px;
+  margin-left: 20px;
+  line-height: 50px;
+  float: left;
+  text-align: center;
+}
+.myApp .tel-content .left-content .content-header li:hover {
+  border-bottom: 2px solid cornflowerblue;
+}
+.myApp .tel-content .left-content .showImg {
+  margin-bottom: 20px;
+}
+.myApp .tel-content .left-content .showImg img {
+  width: 100%;
+  height: 200px;
+}
+.myApp .tel-content .left-content .my-cell {
+  width: 100%px;
+  margin-top: 30px;
+}
+.myApp .tel-content .right-content {
+  width: 260px;
+  margin-left: 40px;
+  float: left;
+}
+.myApp .tel-content .right-content .currentLogin {
+  margin-top: 20px;
+  background-color: #ffffff;
+  min-height: 200px;
+  width: 100%;
+  padding: 5px 10px;
+}
+.myApp .tel-content .right-content .currentLogin p {
+  border-left: 3px solid #00b7ee;
+  padding-left: 10px;
+  height: 15px;
+  line-height: 15px;
+  font-size: 14px;
+}
+.myApp .tel-content .right-content .currentPay {
+  margin-top: 20px;
+  background-color: #ffffff;
+  min-height: 200px;
+  width: 100%;
+  padding: 5px 10px;
+}
+.myApp .tel-content .right-content .currentPay p {
+  border-left: 3px solid #00b7ee;
+  padding-left: 10px;
+  height: 15px;
+  line-height: 15px;
+  font-size: 14px;
+}
+.myApp .tel-content .right-content .currentPay .pay {
+  margin-top: 25px;
+  display: flex;
+  padding-bottom: 15px;
+  justify-content: space-around;
+}
+.myApp .tel-content .right-content .currentPay .pay span {
+  display: inline-block;
+  font-size: 14px;
+}

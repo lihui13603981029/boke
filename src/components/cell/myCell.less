@@ -1,0 +1,97 @@
+.myCell{
+
+  background-color: #fff;
+
+  //头部
+  .cell-header{
+    background-color: #42b983;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+
+    width: 100%;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+  }
+  //内容
+  .cell-text{
+
+      float: left;
+      display: block;
+      padding: 0 5px;
+      height: 120px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+      line-height: 30px;
+      overflow: hidden;
+      font-size: 14px;
+      width: 100%;
+  }
+  .cell-footer{
+    height: 50px;
+    padding:0 20px;
+    color: darkgrey;
+
+    div{
+      float: left;
+      height: 50px;
+    }
+
+    span{
+      display: inline-block;
+      height: 50px;
+      line-height: 50px;
+      font-size: 14px;
+
+      overflow: hidden;
+    }
+    .imgName{
+      width: 300px;
+
+      img{
+        margin-top: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+
+      }
+      span{
+        margin-left: 20px;
+        overflow: hidden;
+        span{
+          display: inline-block;
+          height: 50px;
+          margin: 0;
+        }
+
+        i{
+          display: block;
+          float: left;
+          width: 20px;
+          height: 20px;
+          margin-top: 15px;
+          background-size: 100% 100%;
+        }
+      }
+      .name{
+        margin-left: 5px;
+      }
+
+    }
+    .spanList{
+      float: right;
+      width: 220px;
+      display: flex;
+      justify-content: space-between;
+
+
+    }
+
+
+
+  }
+}

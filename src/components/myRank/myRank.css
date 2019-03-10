@@ -1,0 +1,24 @@
+.myRank {
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+.myRank .rankTap {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.myRank .rankTap button {
+  width: 110px;
+  height: 40px;
+  color: #000;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.myRank .rankTap button:hover {
+  border-bottom: 1px solid cornflowerblue;
+}
+.myRank .rankTap .btnActive {
+  border-bottom: 1px solid cornflowerblue;
+  color: cornflowerblue;
+}

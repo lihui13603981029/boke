@@ -1,0 +1,60 @@
+.head {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  min-width: 900px;
+  width: 100%;
+  height: 50px;
+  line-height: 40px;
+  background-color: #ffffff;
+  border-top: 3px solid lightskyblue;
+  color: #000000;
+}
+.head a {
+  display: inline-block;
+  margin-left: 5%;
+  height: 47px;
+  width: 100px;
+  float: left;
+}
+.head a img {
+  width: 50px;
+}
+.head ul {
+  margin-left: 100px;
+  float: left;
+}
+.head ul li {
+  float: left;
+  width: 60px;
+  height: 47px;
+  line-height: 47px;
+  text-align: center;
+  margin-left: 10px;
+}
+.head ul li:hover {
+  border-bottom: 2px solid cornflowerblue;
+}
+.head .btn {
+  width: 250px;
+  height: 40px;
+  float: right;
+  line-height: 40px;
+  margin-right: 50px;
+  padding: 10px 0;
+  overflow: hidden;
+  padding-right: 20px;
+}
+.head .btn button {
+  float: right;
+  height: 26px;
+  width: 60px;
+  margin-left: 10px;
+  border: none;
+  color: #ffffff;
+}
+.head .btn .interBtn {
+  color: #000;
+  border: 1px solid grey;
+}

@@ -1,0 +1,48 @@
+.home {
+  margin-top: 60px;
+}
+.home .slide-fade-enter-active {
+  transition: all 0.3s ease;
+}
+.home .slide-fade-leave-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.home .slide-fade-enter,
+.home .slide-fade-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
+}
+.content {
+  width: 1000px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.content .leftContent {
+  width: 700px;
+  float: left;
+}
+.content .leftContent .content-cell {
+  margin-bottom: 30px;
+}
+.content .leftContent .operatorBar {
+  margin: 30px 0;
+  background-color: #ffffff;
+}
+.content .leftContent .operatorBar li {
+  float: left;
+  width: 33.3%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+.content .leftContent .operatorBar li:nth-child(2) {
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+}
+.content .rightContent {
+  float: left;
+  width: 260px;
+  margin-left: 40px;
+  background-color: #f2f2f2;
+}

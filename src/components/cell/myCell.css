@@ -1,0 +1,79 @@
+.myCell {
+  background-color: #fff;
+}
+.myCell .cell-header {
+  background-color: #42b983;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  width: 100%;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+.myCell .cell-text {
+  float: left;
+  display: block;
+  padding: 0 5px;
+  height: 120px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-height: 30px;
+  overflow: hidden;
+  font-size: 14px;
+  width: 100%;
+}
+.myCell .cell-footer {
+  height: 50px;
+  padding: 0 20px;
+  color: darkgrey;
+}
+.myCell .cell-footer div {
+  float: left;
+  height: 50px;
+}
+.myCell .cell-footer span {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  overflow: hidden;
+}
+.myCell .cell-footer .imgName {
+  width: 300px;
+}
+.myCell .cell-footer .imgName img {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+.myCell .cell-footer .imgName span {
+  margin-left: 20px;
+  overflow: hidden;
+}
+.myCell .cell-footer .imgName span span {
+  display: inline-block;
+  height: 50px;
+  margin: 0;
+}
+.myCell .cell-footer .imgName span i {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  background-size: 100% 100%;
+}
+.myCell .cell-footer .imgName .name {
+  margin-left: 5px;
+}
+.myCell .cell-footer .spanList {
+  float: right;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+}

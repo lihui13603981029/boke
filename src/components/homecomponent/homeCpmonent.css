@@ -1,0 +1,45 @@
+.homeComponent {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+.homeComponent .writer {
+  position: fixed;
+  top: 35%;
+  right: 60px;
+  height: 40px;
+  width: 40px;
+  background-image: url("../../assets/icon/brush.png");
+  background-color: #f2fde7;
+  background-size: 50% 50%;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+.homeComponent .potion {
+  position: fixed;
+  top: 45%;
+  right: 60px;
+  width: 40px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.homeComponent .potion .top,
+.homeComponent .potion .clothes {
+  height: 40px;
+  background-color: #f2fde7;
+  background-size: 50% 50%;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+.homeComponent .potion .top:hover,
+.homeComponent .potion .clothes:hover {
+  background-color: #92d0de;
+}
+.homeComponent .potion .clothes {
+  background-image: url("../../assets/icon/clothes.png");
+}
+.homeComponent .potion .top {
+  background-image: url("../../assets/icon/top.png");
+}

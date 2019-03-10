@@ -1,0 +1,71 @@
+.my-clothes{
+  width: 100%;
+  height: 150px;
+  background-color: rgba(0,0,0,0.8);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+
+  .clothes-header{
+
+    height: 30px;
+    background-color: gray;
+    padding: 0 10px;
+    span{
+      float: right;
+      display: inline-block;
+      margin-top: 5px;
+      width: 20px;
+      height: 20px;
+      background-image: url("../../assets/icon/delete.png");
+      background-size: 100% 100%;
+    }
+
+  }
+
+  .clothes-content{
+    width: 100%;
+    height: 120px;
+
+
+    ul{
+      width: 100%;
+      padding: 10px 0;
+      display: flex;
+
+      justify-content: space-around;
+      li{
+        width: 100px;
+        height: 100px;
+        float: left;
+        position: relative;
+        border: 2px solid gray;
+
+        img{
+          width: 100%;
+          height: 100%;
+        }
+        span{
+          position: absolute;
+          display: inline-block;
+          height: 20px;
+          width: 100%;
+          text-align: center;
+          left: 0;
+          bottom: 0;
+          color: #ffffff;
+          font-size: 14px;
+          line-height: 20px;
+          background-color: rgba(242,242,242,0.3);
+
+        }
+      }
+      li:hover{
+        border: 2px solid #42b983;
+
+      }
+    }
+
+  }
+}

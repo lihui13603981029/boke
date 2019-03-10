@@ -1,0 +1,49 @@
+.article-content {
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 1000px;
+  background-color: #ffffff;
+}
+.article-content .info {
+  padding: 10px 0;
+  border: 1px solid #F2F2F2;
+}
+.article-content .info input {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  border: 1px solid grey;
+  outline: lightskyblue;
+}
+.article-content .info input:focus {
+  border: 2px solid #00a2d4;
+}
+.article-content .ue-content {
+  width: 1000px;
+  margin: 0 auto;
+}
+.article-content .categoryTitle {
+  height: 40px;
+  line-height: 40px;
+  border: 1px dashed #bce8f1;
+}
+.article-content .category {
+  background-color: lightgray;
+  padding-bottom: 20px;
+}
+.article-content .category ul {
+  padding: 5px 10px;
+}
+.article-content .category ul li {
+  float: left;
+  width: 200px;
+}
+.article-content .userOperator {
+  margin-top: 50px;
+}
+.article-content .userOperator button {
+  width: 50px;
+  height: 25px;
+  margin-left: 20px;
+}
